@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.vscode/
+.competitive-verifier/**
+!.competitive-verifier/verify_result_to_html.py
+!.competitive-verifier/config.toml
+/.venv
+/build/notebook.html

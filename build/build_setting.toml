@@ -1,0 +1,218 @@
+
+# タイトル (先頭に表示)
+title = "ICPC Notebook"
+
+# チーム名 + 大学名 (各ページ左上に表示)
+teamname = "yawn at the top (The University of Osaka)"
+
+# フォントサイズ
+fontsize = "7.4pt"
+
+# portrait (縦長) / landscape (横長)
+orientation = "portrait"
+
+# 何段組みか
+num_columns = 2
+
+# toc の後に : page (改ページする) / column (改段する) / auto (強制しない)
+# break_after_toc = "column"
+break_after_toc = "auto"
+
+# ソースコードディレクトリ
+src_folder = "src"
+
+# PDF に出力する短いドキュメントのディレクトリ
+src_doc_folder = "src-doc"
+
+
+## PDF に出力する内容の選択
+enable_extra = false                            # extra を PDF に出力する
+enable_line_hash = true                         # C++ ソースの各行にハッシュを表示
+do_delete_clang_format_instruction = true       # C++ ソースから "// clang-format" で始まる行を削除
+do_delete_triple_slash_comment = true           # C++ ソースから "/// " で始まる行を削除
+
+
+
+# [[sections]]
+# name = "カテゴリ名"     # src/<カテゴリ名>/ファイル
+# mode = "auto" | "manual"
+# exclude = ["ファイル名", ... ]
+#
+# [[sections.include]]
+# name = "ファイル名"
+# display_name = "PDF にファイル名の代わりに表示するテキスト"
+#            # default : display_name = name
+#
+# exclude に含まれたファイルは PDF に出力されない。
+# それ以外で、 [[sections.include]] で指定されたファイルはその名前で PDF に出力される。
+# それ以外のファイルは、 mode = "auto" ならばすべて PDF に出力される。
+#
+#   Example
+#
+#    [[sections]]
+#    name = "structure"
+#    mode = "auto"
+#    exclude = [ "lazysegtree.hpp" ]
+#    [[sections.include]]
+#        name = "lazysegtree_2.hpp"
+#        display_name = "lazysegtree.hpp"
+#
+#    -> structure/lazysegtree.hpp は出力されない。代わりに
+#       structure/lazysegtree_2.hpp が "lazysegtree.hpp" という名前で出力される。
+
+[[sections]]
+name = "common"
+mode = "auto"
+exclude = [
+    "hash.sh",
+    "random.sh"
+]
+
+[[sections]]
+name = "structure"
+mode = "auto"
+exclude = [
+    "fenwick2D.hpp",
+    "persistent-avl.hpp",
+    "wavelet_matrix_full_feature.hpp"
+]
+[[sections.include]]
+    name = "persistent_avl_acl_format.hpp"
+    display_name = "persistent_avl.hpp"
+
+[[sections]]
+name = "number-theory"
+mode = "auto"
+exclude = [
+    "xor_convolution.hpp"
+]
+
+[[sections]]
+name = "fps"
+mode = "auto"
+exclude = [
+    "multieval.hpp",
+    "bostan_mori.hpp",
+    "nft_notr.hpp"
+]
+[[sections.include]]
+    name = "multieval_invincluded.hpp"
+    display_name = "multieval.hpp"
+[[sections.include]]
+    name = "bostan_mori_msb_first.hpp"
+    display_name = "bostan_mori.hpp"
+    
+
+[[sections]]
+name = "convex"
+mode = "auto"
+exclude = [
+    "Knuth_Yao_speedup.hpp",
+    "d_edge_longest_path_on_submonge_graph.hpp",
+    "monotone_minima.hpp",
+    "cht_base.hpp"
+]
+[[sections.include]]
+    name = "dynamic_convex_hull.hpp"
+[[sections.include]]
+    name = "monge_d_edge_shortest.hpp"
+# [[sections.include]]
+#     name = "Knuth_Yao_speedup.hpp"
+#     display_name = "monge_tirangular_matrix_product.hpp"
+
+[[sections]]
+name = "graph"
+mode = "auto"
+exclude = [
+    "dominator_tree_gifted.hpp"
+]
+[[sections.include]]
+    name = "dominator_tree_kaist.hpp"
+    display_name = "dominator_tree.hpp"
+
+[[sections]]
+name = "tree"
+mode = "auto"
+exclude = [
+    "lca.hpp",
+    "hl_decomposition.hpp",
+    "compressed-subtree.hpp"
+]
+
+[[sections]]
+name = "string"
+mode = "auto"
+exclude = [
+    "z_algorithm.hpp"
+]
+[[sections.include]]
+    name = "z_algorithm_iter.hpp"
+    display_name = "z_algorithm.hpp"
+
+[[sections]]
+name = "geometry"
+mode = "auto"
+[[sections.include]]
+    name = "primitive.hpp"
+[[sections.include]]
+    name = "intersect.hpp"
+[[sections.include]]
+    name = "cross_point.hpp"
+[[sections.include]]
+    name = "polygon.hpp"
+[[sections.include]]
+    name = "circle.hpp"
+[[sections.include]]
+    name = "circle_tangent.hpp"
+[[sections.include]]
+    name = "circum_circle.hpp"
+[[sections.include]]
+    name = "convex_hull.hpp"
+[[sections.include]]
+    name = "convex_polygon_diameter.hpp"
+[[sections.include]]
+    name = "closest_pair.hpp"
+[[sections.include]]
+    name = "halfplane_intersection.hpp"
+
+[[sections]]
+name = "other"
+mode = "auto"
+exclude = [
+    "graphic_matroid.hpp"
+]
+
+[[sections]]
+name = "memo"
+mode = "auto"
+exclude = [
+]
+
+
+# [[extra_list]]
+# file = "カテゴリ名/ファイル名"
+# 
+# 指定されたファイルは、本来のカテゴリからは exclude され、
+# extra カテゴリに追加される。
+
+[[extra_list]]
+file = "graph/3_edge_connectivity.hpp"
+[[extra_list]]
+file = "graph/max_matching.hpp"
+# [[extra_list]]
+# file = "graph/max_matching-daimonge.hpp"
+[[extra_list]]
+file = "other/simplex.hpp"
+[[extra_list]]
+file = "number-theory/nimber_product.hpp"
+[[extra_list]]
+file = "number-theory/min_of_mod_of_linear.hpp"
+[[extra_list]]
+file = "number-theory/sqrt_decomposition_of_mod_linear.hpp"
+# [[extra_list]]
+# file = "string/suffix_array_doubling.hpp"
+# [[extra_list]]
+# file = "string/suffix_automaton.hpp"
+# [[extra_list]]
+# file = "string/aho-corasick.hpp"
+

@@ -1,0 +1,2 @@
+- complex,doubleのmultiplyはverifyしてない
+- modintのmultiplyは任意mod畳み込み用で、3,11はそのままでいい

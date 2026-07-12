@@ -1,0 +1,2 @@
+- `ext_gcd`: $ax + by = g = \mathrm{gcd}(a,b)$
+- `crt`: modは互いに素でなくて良い。 (rem, mod) を与えると (rem, mod) を返す。

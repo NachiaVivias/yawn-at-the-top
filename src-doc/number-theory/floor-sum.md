@@ -1,0 +1,2 @@
+- $\sum_{i=0}^{n-1} \lfloor \frac{a\times i+b}{m} \rfloor$
+- $a,m>0$, $b\geq 0$

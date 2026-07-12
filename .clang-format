@@ -1,0 +1,11 @@
+# これ見て書け
+# https://qiita.com/koyukitukimino/items/9b8f74d1ae307a7017d3
+#
+# PDF で文字が行から溢れないように ColumnLimit を調節すること
+
+BasedOnStyle: "Google"
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: All
+PackConstructorInitializers: BinPack
+ColumnLimit: 59
+IndentWidth: 2

@@ -1,0 +1,1 @@
+g++ a.cpp -o a -O2 -std=c++20 -fsanitize=address 2>err.txt && ./a <in.txt >out.txt 2>err.txt
