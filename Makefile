@@ -17,7 +17,7 @@ URL = "http://127.0.0.1:4000"
 
 serve: .competitive-verifier/_jekyll/Gemfile
 	competitive-verifier docs --verify-json .competitive-verifier/resolve.json .competitive-verifier/verify_result.json
-	cd .competitive-verifier/_jekyll && echo "repository: NachiaVivias/ICPC-library-2026" >> _config.yml
+	cd .competitive-verifier/_jekyll && echo "repository: NachiaVivias/yawn-at-the-top" >> _config.yml
 	cd .competitive-verifier/_jekyll && bundle exec jekyll serve --incremental
 
 notebook.pdf: build/base.css build/notebook.css build/notebook.html

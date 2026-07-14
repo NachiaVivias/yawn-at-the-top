@@ -1,5 +1,7 @@
 # yawn at the top
 
+> [いつか、高いところであくびをしましょう。](https://youtu.be/I0GuKxzBy40?t=44)
+
 [![Actions Status](https://github.com/NachiaVivias/yawn-at-the-top/actions/workflows/verify.yml/badge.svg)](https://github.com/NachiaVivias/yawn-at-the-top/actions)
 
 [![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://NachiaVivias.github.io/yawn-at-the-top)
