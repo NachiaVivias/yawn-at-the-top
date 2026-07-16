@@ -22,7 +22,7 @@ struct DisjointTable {
     r--;
     if (l > r) return e();
     if (l == r) return a[0][l];
-    int u = 31 - countl_zero((unsigned int)(l ^ r));
+    int u = bit_width(unsigned(l ^ r)) - 1;
     return op(a[u][l], a[u][r]);
   }
 };

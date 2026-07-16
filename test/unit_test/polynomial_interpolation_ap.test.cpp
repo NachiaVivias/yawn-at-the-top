@@ -1,5 +1,4 @@
-#define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A"
-#include "unit_test_module.hpp"
+// competitive-verifier: STANDALONE
 
 #include "src/common/template.hpp"
 #include "src/number-theory/modint.hpp"
@@ -41,5 +40,11 @@ void test(){
     for(int m=n; m<20; m++)
     for(int i=0; i<100; i++)
         test_unit(n, m, p);
+}
+
+
+int main(){
+    test();
+    return 0;
 }
 

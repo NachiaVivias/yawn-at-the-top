@@ -1,5 +1,5 @@
-#define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A"
-#include "unit_test_module.hpp"
+// competitive-verifier: STANDALONE
+
 #include "src/common/template.hpp"
 #include "src/number-theory/nimber_product.hpp"
 
@@ -17,4 +17,10 @@ void test(){
       exit(1);
     }
   }
+}
+
+
+int main(){
+    test();
+    return 0;
 }

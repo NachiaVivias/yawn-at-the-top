@@ -41,7 +41,7 @@ struct FS {
       U d = a[h][i / B] << (~i % B);
       if(d) {
         i -= countl_zero(d);
-        while(h--) i = i * B + __lg(a[h][i]);
+        while(h--) i = i * B + bit_width(a[h][i]) - 1;
         return i;
       }
       i = i / B - 1;

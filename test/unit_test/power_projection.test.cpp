@@ -1,5 +1,5 @@
-#define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A"
-#include "unit_test_module.hpp"
+// competitive-verifier: STANDALONE
+
 #include "src/common/template.hpp"
 #include "src/fps/nft.hpp"
 #include "src/fps/fps_power_projection.hpp"
@@ -41,4 +41,10 @@ void test(){
     if(ok) for(int i=0; i<int(ans1.size()); i++) if(ans1[i].v != ans2[i].v) ok = false;
     if(!ok) exit(1);
   }
+}
+
+
+int main(){
+    test();
+    return 0;
 }
