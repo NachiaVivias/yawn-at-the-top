@@ -9,7 +9,7 @@ V<int> manacher(const S& s, int dummy) {
   r[0] = 1;
   for (int i = 1, j = 0; i < m; i++) {
     int& k = r[i];
-    k = min(j + r[j] - i, r[2 * j - i]) * (i < j + r[j]);
+    k = i < j + r[j] ? min(j + r[j] - i, r[2 * j - i]) : 0;
     while (0 <= i - k && i + k < m && a[i - k] == a[i + k]) k++;
     if (j + r[j] < i + r[i]) j = i;
   }
