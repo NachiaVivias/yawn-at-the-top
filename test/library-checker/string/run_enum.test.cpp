@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/runenumerate"
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/string/z_algorithm_iter.hpp"
 #include "src/string/run_enum.hpp"

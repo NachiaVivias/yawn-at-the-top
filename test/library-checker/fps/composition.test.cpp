@@ -1,4 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/composition_of_formal_power_series_large"
+
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/fps/nft.hpp"
 #include "src/fps/fps_composition.hpp"

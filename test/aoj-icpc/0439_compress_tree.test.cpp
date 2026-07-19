@@ -1,5 +1,8 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/PCK/Prelim/0439"
 
+// maybe slows down std::sort
+// #define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 #include <cassert>
 using namespace std;

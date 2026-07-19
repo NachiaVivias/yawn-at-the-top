@@ -1,5 +1,8 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/line_add_get_min"
 
+// maybe slows down std::multiset
+// #define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 template <class T> using V = vector<T>;

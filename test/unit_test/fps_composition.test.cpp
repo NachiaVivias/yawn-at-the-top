@@ -1,5 +1,7 @@
 // competitive-verifier: STANDALONE
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/fps/nft.hpp"
 #include "src/fps/fps_composition.hpp"

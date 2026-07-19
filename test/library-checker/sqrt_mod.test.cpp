@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/sqrt_mod"
 
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 template <class T> using V = vector<T>;

@@ -1,5 +1,9 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/enumerate_palindromes"
 
+// ! Randomized solution !
+
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ull = unsigned long long;

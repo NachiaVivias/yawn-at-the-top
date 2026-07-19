@@ -1,5 +1,16 @@
 #define PROBLEM "https://yukicoder.me/problems/no/187"
 
+/*
+
+No.187 中華風 (Hard)
+連立合同式
+式の個数が 1000 以下、 mod 10^9+7
+
+*/
+
+
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 template <class T> using V = vector<T>;

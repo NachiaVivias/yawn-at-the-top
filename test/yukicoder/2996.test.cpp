@@ -10,6 +10,8 @@ No.2996 Floor Sum
 
 
 
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

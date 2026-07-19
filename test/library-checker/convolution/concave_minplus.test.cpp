@@ -1,5 +1,8 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/min_plus_convolution_concave_arbitrary"
 
+#define _GLIBCXX_DEBUG
+
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

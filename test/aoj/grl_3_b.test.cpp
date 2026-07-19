@@ -1,5 +1,7 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/3/GRL_3_B"
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/graph/biconnectivity.hpp"
 

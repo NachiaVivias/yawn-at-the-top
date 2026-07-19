@@ -1,4 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/multipoint_evaluation"
+
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/fps/nft.hpp"
 #include "src/fps/fps.hpp"

@@ -1,10 +1,7 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/JAG/Summer/2975"
 #define ERROR 0.000000001
 
-/*
-ICPC JAG 夏合宿 2019 1日目 I
-Zombie Land
-*/
+#define _GLIBCXX_DEBUG
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -8,6 +8,8 @@ No.2584 The University of Tree
 
 */
 
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

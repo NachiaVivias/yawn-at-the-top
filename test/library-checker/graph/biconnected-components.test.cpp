@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/biconnected_components"
 
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

@@ -1,4 +1,8 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/tree_path_composite_sum"
+
+// maybe slows down std::lower_bound
+// #define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

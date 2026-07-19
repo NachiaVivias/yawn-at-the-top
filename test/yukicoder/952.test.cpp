@@ -7,6 +7,8 @@ No.952 危険な火薬庫
 
 */
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/convex/cht_monotone.hpp"
 

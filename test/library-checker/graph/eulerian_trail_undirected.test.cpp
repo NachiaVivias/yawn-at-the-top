@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/eulerian_trail_undirected"
 
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/factorize"
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 
 template<class T>

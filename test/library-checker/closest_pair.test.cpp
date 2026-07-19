@@ -1,5 +1,8 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/closest_pair"
 
+// maybe slows down std::sort
+// #define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

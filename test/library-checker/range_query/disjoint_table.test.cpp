@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/static_range_sum"
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/structure/disjoint_table.hpp"
 

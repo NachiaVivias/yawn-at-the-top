@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/dominatortree"
 
+#define _GLIBCXX_DEBUG
+
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/persistent_range_affine_range_sum"
 
+#define _GLIBCXX_DEBUG
+
 // !!! WARNING !!!
 //   Memory Limit Exceeded is intended
 

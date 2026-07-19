@@ -1,5 +1,15 @@
 #define PROBLEM "https://yukicoder.me/problems/no/186"
 
+/*
+
+No.187 中華風 (Easy)
+連立合同式
+式の個数が 3 、 mod を取らない
+
+*/
+
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 template <class T> using V = vector<T>;

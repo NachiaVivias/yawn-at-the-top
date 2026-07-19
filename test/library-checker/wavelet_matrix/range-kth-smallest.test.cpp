@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/range_kth_smallest"
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/structure/wavelet_matrix.hpp"
 

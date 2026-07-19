@@ -10,6 +10,8 @@ No.2149 Vanitas Vanitatum
 
 
 
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

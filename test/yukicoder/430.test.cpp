@@ -1,5 +1,7 @@
 #define PROBLEM "https://yukicoder.me/problems/no/430"
 
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 template <class T>

@@ -1,5 +1,8 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/6/GRL_6_B"
 
+// maybe slows down std::priority_queue
+// #define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/graph/min_cost_flow.hpp"
 

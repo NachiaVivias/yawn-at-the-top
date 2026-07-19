@@ -1,5 +1,8 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/convolution_mod_1000000007"
 
+#define _GLIBCXX_DEBUG
+
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

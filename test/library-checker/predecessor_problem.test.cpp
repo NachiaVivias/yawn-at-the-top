@@ -1,4 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/predecessor_problem"
+
+#define _GLIBCXX_DEBUG
+
 #include <bits/stdc++.h>
 using namespace std;
 template <typename T>

@@ -1,6 +1,8 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Prelim/1699"
 #define ERROR 0.000001
 
+// maybe slows down std::sort
+// #define _GLIBCXX_DEBUG
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -3,6 +3,8 @@
 #include "src/common/template.hpp"
 #include "src/structure/cartesian_tree.hpp"
 
+#define _GLIBCXX_DEBUG
+
 int main(){
   cin.tie(0)->sync_with_stdio(0);
   

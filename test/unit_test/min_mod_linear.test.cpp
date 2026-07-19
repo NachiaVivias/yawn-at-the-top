@@ -1,5 +1,7 @@
 // competitive-verifier: STANDALONE
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/number-theory/min_of_mod_of_linear.hpp"
 

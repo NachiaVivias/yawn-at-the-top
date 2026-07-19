@@ -1,4 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/polynomial_taylor_shift"
+
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/fps/nft.hpp"
 #include "src/fps/taylor_shift.hpp"

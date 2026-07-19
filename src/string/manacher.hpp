@@ -5,8 +5,7 @@ V<int> manacher(const S& s, int dummy) {
   int n = s.size(), m = n * 2 + 1;
   S a(m, dummy);
   REP(i, n) a[i * 2 + 1] = s[i];
-  V<int> r(m);
-  r[0] = 1;
+  V<int> r(m, 1);
   for (int i = 1, j = 0; i < m; i++) {
     int& k = r[i];
     k = i < j + r[j] ? min(j + r[j] - i, r[2 * j - i]) : 0;

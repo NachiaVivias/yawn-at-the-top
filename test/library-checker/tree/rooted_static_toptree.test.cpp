@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/point_set_tree_path_composite_sum_fixed_root"
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/tree/static_top_tree.hpp"
 

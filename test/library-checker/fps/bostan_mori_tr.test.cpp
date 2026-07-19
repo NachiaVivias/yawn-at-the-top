@@ -1,4 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/consecutive_terms_of_linear_recurrent_sequence"
+
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/fps/nft.hpp"
 #include "src/fps/bostan_mori_msb_first.hpp"

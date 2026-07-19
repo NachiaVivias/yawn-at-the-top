@@ -1,5 +1,7 @@
 // competitive-verifier: STANDALONE
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 #include "src/number-theory/modint.hpp"
 using Mint = ModInt<998244353>;

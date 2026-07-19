@@ -1,5 +1,7 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/directedmst"
 
+#define _GLIBCXX_DEBUG
+
 #include "src/common/template.hpp"
 
 #include "src/graph/directed_mst.hpp"

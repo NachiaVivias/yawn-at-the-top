@@ -1,6 +1,7 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/JAG/Regional/3355"
 #define ERROR 0.000001
 
+#define _GLIBCXX_DEBUG
 
 #include <bits/stdc++.h>
 using namespace std;
