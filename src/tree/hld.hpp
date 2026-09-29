@@ -5,7 +5,7 @@ struct HLD {
   V<int> par, dep, sz, pp, stov, vtos, px, index;
   HLD(int N, V<V<int>> graph, int root)
       : N(N), g(0), t(move(graph)), par(N, -1),
-      dep(N), sz(N, 1), pp(N), stov(N), vtos(N),
+      dep(N), sz(N, 1), pp(N, root), stov(N), vtos(N),
       px(N), index(N) {
     dfs1(root);
     dfs2(root);
