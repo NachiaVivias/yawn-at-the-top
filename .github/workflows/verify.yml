@@ -83,6 +83,7 @@ jobs:
             exit 0
           fi
           git commit -m "Add URL comments to source files"
+          git pull --rebase
           git push
 
   verify:
