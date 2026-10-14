@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/crt.hpp
 /// Original: Gifted Infants (数学) (https://yosupo.hatenablog.com/entry/2019/07/02/122433)
 /// g:gcd(a, b), ax+by=g
 struct EG { ll g, x, y; };
@@ -32,3 +33,4 @@ pair<ll, ll> crt(const V<ll>& b, const V<ll>& c) {
   }
   return {(r % m + m) % m, m};
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/crt.hpp

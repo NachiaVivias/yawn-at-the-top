@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/nim_product.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/nim_product_64"
 
 #define _GLIBCXX_DEBUG
@@ -24,3 +25,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/nim_product.test.cpp

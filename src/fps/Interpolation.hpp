@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/Interpolation.hpp
 // i=0,1,...,N-1についてf(a+i*b)=Y[i]となるとき、f(x)を返す
 Mint Interpolation_AP(int N, Mint a, Mint b, V<Mint> Y, Mint x) {
   Mint f = 1;
@@ -32,3 +33,4 @@ Mint Interpolation(int N, V<Mint> X, V<Mint> Y, Mint x) {
   REP(i, N) s += L[i] * R[i + 1] * C[i];
   return s;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/Interpolation.hpp

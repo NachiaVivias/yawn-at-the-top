@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/lcp_array.hpp
 /// Original: AtCoder Library
 V<ll> lcp_array(auto s, V<ll> sa) {
   ll n = s.size(), h = 0;
@@ -14,3 +15,4 @@ V<ll> lcp_array(auto s, V<ll> sa) {
   }
   return lcp;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/lcp_array.hpp

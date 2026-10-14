@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/discrete-logarithm.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/discrete_logarithm_mod"
 
 #define _GLIBCXX_DEBUG
@@ -23,3 +24,4 @@ int main() {
         cout << bsgs(x, 1LL, y, mod_prod, 1LL, mod_prod, m) << '\n';
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/discrete-logarithm.test.cpp

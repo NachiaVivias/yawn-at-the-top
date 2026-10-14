@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/aho-corasick.hpp
 /// Original: Gifted Infants(AhoCorasick) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 struct ACTrie {
   using NP = ACTrie*;
@@ -62,3 +63,4 @@ struct ACTrie {
     return tr;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/aho-corasick.hpp

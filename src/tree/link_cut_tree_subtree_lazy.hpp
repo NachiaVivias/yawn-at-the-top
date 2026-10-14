@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/link_cut_tree_subtree_lazy.hpp
 template<class S, class F, S e(), F id()>
 struct LCNode {
     LCNode *c[2] = {0,0}, *p = 0;
@@ -77,3 +78,4 @@ struct LCNode {
 // S op(S l, S r){ return {min(l.x, r.x)}; }
 // S e(){ return {INF}; }
 // F operator-(F f);        // 逆作用
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/link_cut_tree_subtree_lazy.hpp

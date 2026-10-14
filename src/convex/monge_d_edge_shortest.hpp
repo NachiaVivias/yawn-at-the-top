@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/monge_d_edge_shortest.hpp
 /// 資料: https://noshi91.hatenablog.com/entry/2023/02/18/005856
 // Int f(int a, int b){ return A[a][b] } (A : monge)
 // void det(int i, int j, Int x){
@@ -49,3 +50,4 @@ Int d_edge_shortest_path(int n, ll k, F1 f, Int max_weight, Int INF) {
   auto [d, c] = DC(ok);
   return d + ok * k;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/monge_d_edge_shortest.hpp

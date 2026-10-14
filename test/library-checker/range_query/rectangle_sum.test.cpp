@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/range_query/rectangle_sum.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/rectangle_sum"
 
 #include <bits/stdc++.h>
@@ -45,3 +46,4 @@ int main() {
     cout << ans << "\n";
   }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/range_query/rectangle_sum.test.cpp

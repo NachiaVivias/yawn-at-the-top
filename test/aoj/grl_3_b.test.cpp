@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/grl_3_b.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/3/GRL_3_B"
 
 #define _GLIBCXX_DEBUG
@@ -23,3 +24,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/grl_3_b.test.cpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/mp.hpp
 // S[:i]の接頭辞と接尾辞が最大何文字一致しているか
 // S[:i]=T*cとかけるTの長さの最小値はi%mp[i]=0?mp[i]:i
 template <class S>
@@ -12,3 +13,4 @@ V<int> mp(const S& s) {
   }
   return r;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/mp.hpp

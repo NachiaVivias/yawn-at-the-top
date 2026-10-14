@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/cht_monotone.hpp
 /// Original : Nachia
 template<class Pos, class F>
 struct CHTMonotone {
@@ -54,3 +55,4 @@ struct CHTMonotone {
 // void cross(F a, F b, double& xa, double& xb){
 //   xa = xb = -(a.b - b.b) / (a.a - b.a);
 // }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/cht_monotone.hpp

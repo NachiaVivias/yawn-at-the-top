@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/halfplane_intersection.hpp
 /// Original: Gifted Infants(複雑系) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 int argcmp(P l, P r) {
     auto psgn = [&](P p) {
@@ -38,3 +39,4 @@ V<L> halfplane_intersection(V<L> lines) {
         return {};
     return V<L>(st.begin() + l, st.begin() + r + 1);
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/halfplane_intersection.hpp

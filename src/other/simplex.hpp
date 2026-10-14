@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/simplex.hpp
 /*
 LP
 max cx
@@ -76,3 +77,4 @@ struct LPsolver{
     bool eq(T a, T b) { return fabs(a - b) < eps; }
     bool ls(T a, T b) { return a < b && !eq(a, b); }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/simplex.hpp

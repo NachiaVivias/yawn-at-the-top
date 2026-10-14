@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/string/run_enum.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/runenumerate"
 
 #define _GLIBCXX_DEBUG
@@ -37,3 +38,4 @@ int main() {
     for(auto run : res) cout << run.p << ' ' << run.l << ' ' << run.r << '\n';
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/string/run_enum.test.cpp

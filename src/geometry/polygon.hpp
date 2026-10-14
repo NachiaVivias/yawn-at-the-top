@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/polygon.hpp
 /// Original: Gifted Infants(Polygon) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 using Pol = V<P>;
 D area2(const Pol& pol) {
@@ -72,3 +73,4 @@ V<pair<P, int>> insPolL(Pol pol, L l) {
   }
   return res;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/polygon.hpp

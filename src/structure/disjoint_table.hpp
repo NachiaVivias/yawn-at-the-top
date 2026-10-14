@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/disjoint_table.hpp
 /// Original : Gifted Infants(DisjointTable) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 template <class S, S op(S, S), S e()>
 struct DisjointTable {
@@ -26,3 +27,4 @@ struct DisjointTable {
     return op(a[u][l], a[u][r]);
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/disjoint_table.hpp

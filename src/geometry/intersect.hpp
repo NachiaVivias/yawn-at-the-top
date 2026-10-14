@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/intersect.hpp
 /// Original: Gifted Infants(Intersect) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 P project(L l, P p) {
   P v = l.vec();
@@ -25,3 +26,4 @@ D distSS(L s, L t) {
   return min({distSP(s, t.s), distSP(s, t.t), distSP(t, s.s),
               distSP(t, s.t)});
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/intersect.hpp

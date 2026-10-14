@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/wavelet_matrix/static-range-frequency.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/static_range_frequency"
 
 #define _GLIBCXX_DEBUG
@@ -21,3 +22,4 @@ int main() {
 }
 
 
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/wavelet_matrix/static-range-frequency.test.cpp

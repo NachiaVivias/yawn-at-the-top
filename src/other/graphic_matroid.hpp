@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/graphic_matroid.hpp
 /// Original : Nachia
 /// https://atcoder.jp/contests/abc399/submissions/77134460
 struct GraphicMatroid {
@@ -33,3 +34,4 @@ struct GraphicMatroid {
     return res;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/graphic_matroid.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/2D_segtree.hpp
 template<class Coord>
 struct TwoDRectangleQuery{
   int n, lg;
@@ -67,3 +68,4 @@ struct TwoDRectangleQuery{
     return res;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/2D_segtree.hpp

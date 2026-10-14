@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/min_of_mod_of_linear.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/min_of_mod_of_linear"
 
 #define _GLIBCXX_DEBUG
@@ -27,3 +28,4 @@ int main() {
     }
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/min_of_mod_of_linear.test.cpp

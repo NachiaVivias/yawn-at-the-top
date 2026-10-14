@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/hld_query.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/vertex_set_path_composite"
 
 #define _GLIBCXX_DEBUG
@@ -130,3 +131,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/hld_query.test.cpp

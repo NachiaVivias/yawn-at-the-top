@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/fenwick.hpp
 template <class T>
 struct Fenwick {
   int n;
@@ -36,3 +37,4 @@ struct Fenwick {
     return res + 1;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/fenwick.hpp

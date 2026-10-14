@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/convex_polygon_diameter.hpp
 /// Original: Gifted Infants(Polygon) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 D diameter(const V<P>& p) {
   int n = int(p.size());
@@ -26,3 +27,4 @@ D diameter(const V<P>& p) {
   }
   return ans;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/convex_polygon_diameter.hpp

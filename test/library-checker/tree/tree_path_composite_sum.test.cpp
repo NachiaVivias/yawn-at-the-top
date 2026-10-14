@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/tree_path_composite_sum.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/tree_path_composite_sum"
 
 // maybe slows down std::lower_bound
@@ -118,3 +119,4 @@ int main(){
   testcase();
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/tree_path_composite_sum.test.cpp

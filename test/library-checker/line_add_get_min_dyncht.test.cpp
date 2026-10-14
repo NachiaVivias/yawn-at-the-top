@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/line_add_get_min_dyncht.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/line_add_get_min"
 
 // maybe slows down std::multiset
@@ -35,3 +36,4 @@ int main() {
     
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/line_add_get_min_dyncht.test.cpp

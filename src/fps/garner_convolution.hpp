@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/garner_convolution.hpp
 // number-theory/modint.hpp , 同/crt.hpp (inv_mod まで) ,
 // 同/garner.hpp , fps/nft.hpp
 template <int MOD, int g>
@@ -30,3 +31,4 @@ V<mint> multiply_garner(V<mint> a, V<mint> b){
     }
     return ans;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/garner_convolution.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/static_top_tree.hpp
 /// Original: Nyaan's Library https://nyaannyaan.github.io/library/tree/static-top-tree-vertex-based.hpp
 struct StaticTopTree {
   static const int VERT = 0; // -1     -1     vtx
@@ -121,3 +122,4 @@ struct STTStructure {
 // ds.d.edge = move(E);
 // ds.st = StaticTopTree(N, edges, 0);
 // ds.init();
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/static_top_tree.hpp

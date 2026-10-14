@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/min_of_mod_of_linear.hpp
 // x = lx + p * i ( 0 <= i < len ) なる点において
 // x = argmin_t [0<=t<=x] : (a * t + b) % m
 struct MinModResult {
@@ -35,3 +36,4 @@ V<MinModResult> MinModLinear(ll m, ll a, ll b){
   }
   return res;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/min_of_mod_of_linear.hpp

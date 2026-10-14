@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/hook_length_formula.hpp
 Mint Hook_Length_Formula(vector<int>& A) {
   assert(is_sorted(A.begin(), A.end()));
   if (A.empty()) return Mint(1);
@@ -10,3 +11,4 @@ Mint Hook_Length_Formula(vector<int>& A) {
   }
   return n / d;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/hook_length_formula.hpp

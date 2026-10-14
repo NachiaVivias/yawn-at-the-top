@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/eulerian_trail.hpp
 // オイラー路を一つ構築して { 頂点列 , 辺列 } を返す
 pair<V<int>, V<int>> eulerian_trail(
     int N, const V<pair<int, int>>& edges, bool directed, int start = -1) {
@@ -39,3 +40,4 @@ pair<V<int>, V<int>> eulerian_trail(
   REP(i, M) if(X[E[i]] != H[i] + H[i + 1]) return { {-1}, {-1} };
   return {H, E};
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/eulerian_trail.hpp

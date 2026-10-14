@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/two-sat.hpp
 /// Original: DaiMonge https://github.com/tko919/ICPC_notebook/blob/main/src/graph/twosat.hpp
 struct TwoSat {
     int n;
@@ -28,3 +29,4 @@ struct TwoSat {
         }
     }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/two-sat.hpp

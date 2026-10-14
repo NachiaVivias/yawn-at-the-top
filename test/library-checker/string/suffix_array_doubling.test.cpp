@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/string/suffix_array_doubling.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/suffixarray"
 
 // maybe slows down std::sort
@@ -23,3 +24,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/string/suffix_array_doubling.test.cpp

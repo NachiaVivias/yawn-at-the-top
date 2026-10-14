@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/grl_6_b.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/6/GRL_6_B"
 
 // maybe slows down std::priority_queue
@@ -26,3 +27,4 @@ int main() {
     else cout << res.second << '\n';
 }
 
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/grl_6_b.test.cpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/string/rolling_hash_enumerate_palindrome.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/enumerate_palindromes"
 
 // ! Randomized solution !
@@ -40,3 +41,4 @@ int main() {
         }
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/string/rolling_hash_enumerate_palindrome.test.cpp

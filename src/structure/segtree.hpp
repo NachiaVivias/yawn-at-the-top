@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/segtree.hpp
 template <class S, S op(S, S)>
 struct Segtree {
   int n, s;
@@ -68,3 +69,4 @@ struct Segtree {
     return r + 1 - s;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/segtree.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/lazysegtree.hpp
 template <class S, class F, S op(S, S),
           F composition(F, F), S mapping(F, S)>
 struct LazySegtree {
@@ -111,3 +112,4 @@ struct LazySegtree {
     return r + 1 - s;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/lazysegtree.hpp

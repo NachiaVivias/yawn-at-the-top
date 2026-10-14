@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/unit_test/nim_inverse.test.cpp
 // competitive-verifier: STANDALONE
 
 #define _GLIBCXX_DEBUG
@@ -26,3 +27,4 @@ int main(){
     test();
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/unit_test/nim_inverse.test.cpp

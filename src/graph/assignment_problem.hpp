@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/assignment_problem.hpp
 // result[i] : use A[i][result[i]]
 using Cost = ll;
 V<int> AssignmentProblem(
@@ -29,3 +30,4 @@ V<int> AssignmentProblem(
   }
   return l;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/assignment_problem.hpp

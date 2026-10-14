@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/wavelet_matrix/range-kth-smallest.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/range_kth_smallest"
 
 #define _GLIBCXX_DEBUG
@@ -20,3 +21,4 @@ int main() {
     }
 }
 
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/wavelet_matrix/range-kth-smallest.test.cpp

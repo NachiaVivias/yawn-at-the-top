@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/miller_rabin.hpp
 /// Original: Gifted Infants(Prime) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 bool is_prime(ll n) {
   if (n <= 1) return 0;
@@ -38,3 +39,4 @@ V<ll> pollard(ll n) {
   for(auto a : pollard(n / x)) res.push_back(a);
   return res;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/miller_rabin.hpp

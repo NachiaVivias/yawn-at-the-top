@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/scc.hpp
 // res.first = 強連結成分の個数
 // res.second[v] = v が属する強連結成分の番号
 pair<int, V<int>> scc(int n, V<V<int>> g){
@@ -16,3 +17,4 @@ pair<int, V<int>> scc(int n, V<V<int>> g){
   for(auto& x : id) x = idx - x;
   return make_pair(idx, move(id));
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/scc.hpp

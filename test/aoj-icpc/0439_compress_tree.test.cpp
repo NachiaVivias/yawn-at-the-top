@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/0439_compress_tree.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/PCK/Prelim/0439"
 
 // maybe slows down std::sort
@@ -80,3 +81,4 @@ int main(){
   testcase();
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/0439_compress_tree.test.cpp

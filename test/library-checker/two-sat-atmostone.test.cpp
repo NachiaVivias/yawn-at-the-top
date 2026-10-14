@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/two-sat-atmostone.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/two_sat"
 
 #define _GLIBCXX_DEBUG
@@ -38,3 +39,4 @@ int main(){
     cout << "0\n";
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/two-sat-atmostone.test.cpp

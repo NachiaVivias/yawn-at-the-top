@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/range_chmin_chmax_add_sum_beats.hpp
 struct F {
   ll l, r, a;
 };
@@ -60,3 +61,4 @@ Elem mapping(F f, Elem x){
 }
 Elem e(){ return Elem(); }
 F id(){ return { -INF, INF, 0 }; }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/range_chmin_chmax_add_sum_beats.hpp

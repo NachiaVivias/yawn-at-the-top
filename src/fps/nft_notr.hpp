@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/nft_notr.hpp
 /// Original: tatyam (ICPC_notebook) (https://github.com/tatyam-prime/ICPC_notebook/tree/main)
 // 167772161     3       5 * 2^25 + 1
 // 377487361     7      45 * 2^23 + 1
@@ -56,3 +57,4 @@ V<Mint> multiply(V<Mint> a, V<Mint> b) {
   for(auto& x : a) x *= iz;
   return a;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/nft_notr.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/nimber_product.hpp
 struct NimberManager{
   using ull = unsigned long long;
   ull h[256][256] = {}, g[256];
@@ -34,3 +35,4 @@ struct NimberManager{
     return mul(s, x, d) << d ^ mul(s, x ^ y, d);
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/nimber_product.hpp

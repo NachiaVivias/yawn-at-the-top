@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/linear_algebra/inverse_matrix.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/inverse_matrix"
 
 
@@ -42,3 +43,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/linear_algebra/inverse_matrix.test.cpp

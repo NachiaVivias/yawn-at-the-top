@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_1_a.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/1/CGL_1_A"
 #define ERROR 0.00000001
 
@@ -18,3 +19,4 @@ int main() {
         cout << q.x << ' ' << q.y << endl;
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_1_a.test.cpp

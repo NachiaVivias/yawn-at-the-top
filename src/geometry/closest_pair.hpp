@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/closest_pair.hpp
 tuple<D, int, int> cp_rec(vector<pair<P, int>>& psi, int l,
                           int r) {
   if (l + 1 == r) return {1e100, -1, -1};
@@ -31,3 +32,4 @@ tuple<D, int, int> closest_pair(const vector<P>& ps) {
        [](auto a, auto b) { return a.first.x < b.first.x; });
   return cp_rec(psi, 0, n);
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/closest_pair.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/predecessor_problem_fastset.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/predecessor_problem"
 
 #define _GLIBCXX_DEBUG
@@ -40,3 +41,4 @@ int main(){
   testcase();
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/predecessor_problem_fastset.test.cpp

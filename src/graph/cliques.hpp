@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/cliques.hpp
 // 計算量は O( V^2 + V 2 ^ sqrt(2E) )
 // 空集合は含まれない
 // void f(const V<int>& clique);
@@ -25,3 +26,4 @@ void cliques(int n, V<V<int>> graph, auto f){
     deg[v] = n * 5;
   }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/cliques.hpp

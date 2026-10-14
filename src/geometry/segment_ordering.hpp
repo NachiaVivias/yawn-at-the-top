@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/segment_ordering.hpp
 struct LI {
   L l;
   ll i;
@@ -48,3 +49,4 @@ V<ll> orderSegments(V<L> e, ll inf = 1ll << 30){
   REP(i, n) res[ord[i]] = i;
   return res;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/segment_ordering.hpp

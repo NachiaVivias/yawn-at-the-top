@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/manhattan_mst.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/manhattanmst"
 
 // maybe slows down std::sort
@@ -59,3 +60,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/manhattan_mst.test.cpp

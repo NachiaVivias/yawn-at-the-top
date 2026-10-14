@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/graph/two_edge_connected_components.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/two_edge_connected_components"
 
 #define _GLIBCXX_DEBUG
@@ -31,3 +32,4 @@ int main() {
         cout << "\n";
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/graph/two_edge_connected_components.test.cpp

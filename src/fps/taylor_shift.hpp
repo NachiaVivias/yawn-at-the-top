@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/taylor_shift.hpp
 // f(x+c)を返す
 template<class Mint>
 V<Mint> taylor_shift(V<Mint> a, Mint c) {
@@ -16,3 +17,4 @@ V<Mint> taylor_shift(V<Mint> a, Mint c) {
   REP(i, n) fi[i] *= a[i + n];
   return fi;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/taylor_shift.hpp

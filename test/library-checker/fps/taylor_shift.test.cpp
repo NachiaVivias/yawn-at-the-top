@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/fps/taylor_shift.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/polynomial_taylor_shift"
 
 #define _GLIBCXX_DEBUG
@@ -19,3 +20,4 @@ int main(){
     for(int i=0; i<N; i++) cout << ans[i].v << "\n "[i+1<N];
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/fps/taylor_shift.test.cpp

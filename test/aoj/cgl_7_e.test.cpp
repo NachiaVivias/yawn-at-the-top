@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_7_e.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/7/CGL_7_E"
 #define ERROR 0.000001
 
@@ -26,3 +27,4 @@ int main() {
     cout << p1.x << " " << p1.y << " " << p2.x << " " << p2.y << endl;
 }
 
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_7_e.test.cpp

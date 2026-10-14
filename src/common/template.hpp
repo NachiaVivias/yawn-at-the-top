@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/common/template.hpp
 /// Original: The Revenge of shinchan
 /// test
 // clang-format off
@@ -12,3 +13,4 @@ template<class A, class B>
 bool chmax(A &a, B b) { return a < b && (a = b, true); }
 template<class A, class B>
 bool chmin(A &a, B b) { return b < a && (a = b, true); }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/common/template.hpp

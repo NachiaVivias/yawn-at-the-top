@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/1699_halfplane_intersection.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Prelim/1699"
 #define ERROR 0.000001
 
@@ -54,3 +55,4 @@ int main(){
         testcase();
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/1699_halfplane_intersection.test.cpp

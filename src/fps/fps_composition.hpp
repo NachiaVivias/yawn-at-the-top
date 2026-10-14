@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/fps_composition.hpp
 // f(g(x)) mod x^N (g[0] = 0)
 template <class D>
 V<D> fps_composition(V<D> f, V<D> g, ll N) {
@@ -23,3 +24,4 @@ V<D> fps_composition(V<D> f, V<D> g, ll N) {
   REP(i, N) res[i] = p[z - 1 - i];
   return res;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/fps_composition.hpp

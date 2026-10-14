@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/fastset.hpp
 /// Original : ICPC_notebook (https://github.com/tatyam-prime/ICPC_notebook/blob/main/src/data-structure/FastSet.hpp)
 struct FS {
   using U = unsigned long long;
@@ -49,3 +50,4 @@ struct FS {
     return -1;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/fastset.hpp

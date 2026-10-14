@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/relaxed_convolution.hpp
 // f(i,c)はc=C[i-1]の時にA[i],B[i]を返す関数（i=0の時はcは何でもよい）
 template <class D>
 V<D> relaxed_convolution(int N, auto f) {
@@ -21,3 +22,4 @@ V<D> relaxed_convolution(int N, auto f) {
   }
   return R;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/relaxed_convolution.hpp

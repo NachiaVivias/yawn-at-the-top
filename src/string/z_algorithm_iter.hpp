@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/z_algorithm_iter.hpp
 template<class Iter>
 V<int> z_algorithm(Iter s, Iter s_end) {
   int n = s_end - s;
@@ -11,3 +12,4 @@ V<int> z_algorithm(Iter s, Iter s_end) {
   r[0] = n;
   return r;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/z_algorithm_iter.hpp

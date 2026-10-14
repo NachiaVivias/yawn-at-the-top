@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/persistent_avl_acl_format.hpp
 template<int BUFSIZE, class S, S op(S, S), S e(), class F, S mapping(F, S), F comp(F, F), F id()>
 struct Node {
   using np = Node*;
@@ -68,3 +69,4 @@ struct Node {
     return tmp[0];
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/persistent_avl_acl_format.hpp

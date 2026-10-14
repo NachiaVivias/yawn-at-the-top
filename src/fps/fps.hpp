@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/fps.hpp
 template <class D>
 struct Poly {
   using P = const Poly&;
@@ -125,3 +126,4 @@ struct Poly {
     return os;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/fps.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/fps_power_projection.hpp
 // [x^K] f(x) / (1 - y g(x)) mod y^N (g[0] = 0)
 template <class D>
 V<D> power_projection(V<D> f, V<D> g, ll K, ll N) {
@@ -23,3 +24,4 @@ V<D> power_projection(V<D> f, V<D> g, ll K, ll N) {
   REP(i,N) res[i] = p[i * 2];
   return res;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/fps_power_projection.hpp

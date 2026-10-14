@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/suffix_automaton.hpp
 /// Original: Gifted Infants(SuffixAutomaton) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 struct SuffixAutomaton{
   using Char = char;
@@ -82,3 +83,4 @@ struct SuffixAutomaton{
     REP(i,sz) nodes[i]->id = i;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/suffix_automaton.hpp

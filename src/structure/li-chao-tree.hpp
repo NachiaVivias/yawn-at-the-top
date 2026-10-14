@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/li-chao-tree.hpp
 template<class Func, class Eval>
 struct LiChaoTreeFlexible{
     int n, N;
@@ -46,3 +47,4 @@ struct LiChaoTreeFlexible{
         return res;
     }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/li-chao-tree.hpp

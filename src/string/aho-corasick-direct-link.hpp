@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/aho-corasick-direct-link.hpp
 struct ACNode {
   ll len = 0, li = 0;  // suffix link
   array<ll, 26> nx = {}; // 1 文字足したときの最長接尾辞
@@ -25,3 +26,4 @@ pair<V<ACNode>, V<ll>> AhoCorasick(const V<Str>& s){
   }
   return { a, p };
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/aho-corasick-direct-link.hpp

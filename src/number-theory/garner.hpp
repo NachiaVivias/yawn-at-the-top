@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/garner.hpp
 // crt.hpp の inv_mod を使用
 // 1 回実行 : ll ans = garner<ll>(md)(rem);
 template<class E>
@@ -35,3 +36,4 @@ bool coprimize_mod_system(ll& r1, ll& m1, ll& r2, ll& m2) {
   r1 %= m1, r2 %= m2;
   return 1;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/garner.hpp

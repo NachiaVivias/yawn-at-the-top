@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/max_matching.hpp
 /// Original: Gifted Infants(MaxMatching) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 // struct E { int to; };
 template <class E> struct MaxMatching {
@@ -75,3 +76,4 @@ template <class E> struct MaxMatching {
         for(st = 0; st < n; st++) if (mt[st] == -1) arg();
     }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/max_matching.hpp

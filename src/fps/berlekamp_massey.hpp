@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/berlekamp_massey.hpp
 /// Original: Nyaan's Library https://nyaannyaan.github.io/library/fps/berlekamp-massey.hpp
 // 有理母関数の分母を返す
 template <class Mint>
@@ -18,3 +19,4 @@ vector<Mint> berlekamp_massey(const vector<Mint>& s) {
   }
   return c;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/berlekamp_massey.hpp

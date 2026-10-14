@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/min_cost_flow.hpp
 // 辺は配列 E に一列に並んでいる。
 // 辺 e (e : int) の逆辺は、辺 e^1 である。
 struct MCF {
@@ -77,3 +78,4 @@ struct MCF {
     return slope(s, t, lim).back();
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/min_cost_flow.hpp

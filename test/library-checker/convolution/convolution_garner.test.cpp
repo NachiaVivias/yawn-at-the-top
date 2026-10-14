@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/convolution/convolution_garner.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/convolution_mod_1000000007"
 
 #define _GLIBCXX_DEBUG
@@ -27,3 +28,4 @@ int main() {
     auto c = multiply_garner(a, b);
     for(int i = 0; i < n+m-1; i++) cout << c[i] << (i == n+m-2 ? '\n' : ' ');
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/convolution/convolution_garner.test.cpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/yukicoder/430.test.cpp
 #define PROBLEM "https://yukicoder.me/problems/no/430"
 
 #define _GLIBCXX_DEBUG
@@ -21,3 +22,4 @@ int main() {
     cout << ans << '\n';
 }
 
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/yukicoder/430.test.cpp

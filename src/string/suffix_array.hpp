@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/suffix_array.hpp
 /// Original: AtCoder Library
 V<ll> sa_is(auto s, ll B = 200) {
   ll n = s.size(), m = 0, b = 0;
@@ -34,3 +35,4 @@ V<ll> sa_is(auto s, ll B = 200) {
   }
   return sa;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/suffix_array.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/cht_base.hpp
 /// Original : Nachia
 // a / b
 // only max query supported
@@ -26,3 +27,4 @@ struct Line {
     return l.a != r.a ? l.a <=> r.a : l.b <=> r.b;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/cht_base.hpp

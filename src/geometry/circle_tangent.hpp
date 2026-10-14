@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/circle_tangent.hpp
 /// Original: Gifted Infants(Circle) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 // pからcに接線を引く，交点はp1, p2
 int tangent(C c, P p, P& p1, P& p2) {
@@ -33,3 +34,4 @@ int tangent(C c, C d, L& l, L& r, bool inter) {
   if (si == 0) return 1;
   return 2;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/circle_tangent.hpp

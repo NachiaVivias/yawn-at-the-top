@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/sum_of_floor_of_linear.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/sum_of_floor_of_linear"
 
 #define _GLIBCXX_DEBUG
@@ -17,3 +18,4 @@ int main() {
         cout << gauss_sum(n, a, b, m) << '\n';
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/sum_of_floor_of_linear.test.cpp

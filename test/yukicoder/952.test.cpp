@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/yukicoder/952.test.cpp
 #define PROBLEM "https://yukicoder.me/problems/no/952"
 
 /*
@@ -57,3 +58,4 @@ int main(){
   testcase();
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/yukicoder/952.test.cpp

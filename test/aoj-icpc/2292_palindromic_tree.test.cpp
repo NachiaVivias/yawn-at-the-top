@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/2292_palindromic_tree.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/JAG/Summer/2292"
 
 #define _GLIBCXX_DEBUG
@@ -38,3 +39,4 @@ int main(){
   testcase();
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/2292_palindromic_tree.test.cpp

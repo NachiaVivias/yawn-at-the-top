@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/dominator_tree_gifted.hpp
 /// Original: Gifted Infants(Dominator Tree) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 struct DominatorTree{
     int n;
@@ -48,3 +49,4 @@ struct DominatorTree{
         return idom;
     }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/dominator_tree_gifted.hpp

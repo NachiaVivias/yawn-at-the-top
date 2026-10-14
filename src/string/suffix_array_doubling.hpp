@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/suffix_array_doubling.hpp
 template <class Str>
 V<ll> suffix_array(Str s) {
   ll n = s.size();
@@ -18,3 +19,4 @@ V<ll> suffix_array(Str s) {
   }
   return sa;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/suffix_array_doubling.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/matrix.hpp
 const Mint zero(0);
 const Mint one(1);
 bool iszero(Mint x) {
@@ -77,3 +78,4 @@ struct Matrix {
     return o;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/matrix.hpp

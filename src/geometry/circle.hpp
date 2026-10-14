@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/circle.hpp
 /// Original: Gifted Infants(Circle) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 struct C {
   P p;
@@ -73,3 +74,4 @@ D area2CPol(C c, const V<P>& po) {
   }
   return sm;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/circle.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/range_query/point_add_range_sum_segtree.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/point_add_range_sum"
 
 #define _GLIBCXX_DEBUG
@@ -34,3 +35,4 @@ int main() {
     }
   }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/range_query/point_add_range_sum_segtree.test.cpp

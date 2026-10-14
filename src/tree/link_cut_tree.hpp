@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/link_cut_tree.hpp
 struct S{ ll x; };
 static S op(S l, S r){ return { l.x + r.x }; }
 struct LCNode {
@@ -49,3 +50,4 @@ struct LCNode {
     void link(LCNode* r){ r->evert(), evert(), p = r; }
     void cut(){ expose(), c[0] = c[0]->p = 0; }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/link_cut_tree.hpp

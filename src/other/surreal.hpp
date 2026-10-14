@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/surreal.hpp
 /// Original: Nyaan https://nyaannyaan.github.io/library/game/surreal-number.hpp
 /// edit: Nachia
 struct Surreal {
@@ -25,3 +26,4 @@ struct Surreal {
     return v;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/other/surreal.hpp

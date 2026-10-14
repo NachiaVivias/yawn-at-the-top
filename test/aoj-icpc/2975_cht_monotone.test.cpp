@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/2975_cht_monotone.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/challenges/sources/JAG/Summer/2975"
 #define ERROR 0.000000001
 
@@ -81,3 +82,4 @@ int main() {
   return 0;
 }
 
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj-icpc/2975_cht_monotone.test.cpp

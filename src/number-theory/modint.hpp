@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/modint.hpp
 template <int MD, int g = 3>
 struct ModInt {
   using M = ModInt;
@@ -62,3 +63,4 @@ struct ModInt {
   }
 };
 // using Mint = ModInt<998244353, 3>;
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/modint.hpp

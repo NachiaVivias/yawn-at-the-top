@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/rolling-hash.hpp
 struct RollingHash {
   using ull = unsigned long long;
   constexpr static ull MOD = (1ULL << 61) - 1;
@@ -36,3 +37,4 @@ struct RollingHash {
     return add(hash[r], MOD - mul(hash[l], power[r - l]));
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/rolling-hash.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/cross_point.hpp
 /// Original: Gifted Infants(Intersect) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 int crossLL(L l, L m, P& r) {
   D cr1 = crs(l.vec(), m.vec()), cr2 = crs(l.vec(), l.t - m.s);
@@ -18,3 +19,4 @@ int crossSS(L l, L m, P& r) {
   }
   return ccw(l, r) == 0 && ccw(m, r) == 0 ? 1 : 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/cross_point.hpp

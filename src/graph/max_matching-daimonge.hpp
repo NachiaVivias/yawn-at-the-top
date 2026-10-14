@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/max_matching-daimonge.hpp
 /// Original: DaiMonge https://github.com/tko919/ICPC_notebook/blob/main/src/graph/general.hpp
 V<pair<ll, ll>> MaxMatching(ll n, V<pair<ll, ll>> &es){
     mt19937 rnd;
@@ -29,3 +30,4 @@ V<pair<ll, ll>> MaxMatching(ll n, V<pair<ll, ll>> &es){
     REP(v, n) if(v + 1 < mate[v + 1]) ret.push_back({v, mate[v + 1] - 1});
     return ret;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/max_matching-daimonge.hpp

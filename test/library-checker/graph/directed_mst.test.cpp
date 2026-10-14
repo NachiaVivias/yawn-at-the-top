@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/graph/directed_mst.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/directedmst"
 
 #define _GLIBCXX_DEBUG
@@ -30,3 +31,4 @@ int main() {
     cout << ans[i];
   } cout << "\n";
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/graph/directed_mst.test.cpp

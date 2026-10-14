@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/bsgs.hpp
 template <class X, class S>
 ll bsgs(X x, S s, S t, auto op, X xe, auto mapping, ll n) {
   ll m = sqrt(n), k = 0;
@@ -23,3 +24,4 @@ ll bsgs(X x, S s, S t, auto op, X xe, auto mapping, ll n) {
   }
   return -1;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/bsgs.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/primitive.hpp
 /// Original: Gifted Infants(Primitive) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 using D = double;
 const D PI = acos(D(-1)), EPS = 1e-10;
@@ -120,3 +121,4 @@ int ccw(P a, P b, P c) {
 int ccw(L l, P p) {
   return ccw(l.s, l.t, p);
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/primitive.hpp

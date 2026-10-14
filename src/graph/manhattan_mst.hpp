@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/manhattan_mst.hpp
 /// Original: ei1333 https://ei1333.github.io/library/graph/mst/manhattan-mst.hpp
 // 候補の辺を O(N) 本に減らす。MST時は追加でsort, UF等の必要あり。
 template<typename T> V<tuple<T, int, int>>
@@ -24,3 +25,4 @@ manhattan_mst(V<T> xs, V<T> ys) {
     }
     return ret;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/manhattan_mst.hpp

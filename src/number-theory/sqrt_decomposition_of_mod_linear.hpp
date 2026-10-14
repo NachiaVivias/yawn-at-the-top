@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/sqrt_decomposition_of_mod_linear.hpp
 // 点群 (x,(A*x+B)%M) (x=0,1...N-1) を
 // (start_x + dx*i, start_y + dy*i) (i=0,1...len-1) に分解
 // lines.size() ~ O(sqrt(N))
@@ -39,3 +40,4 @@ auto sqrt_lines(Int N, Int M, Int A, Int B) {
     }
     return res;
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/sqrt_decomposition_of_mod_linear.hpp

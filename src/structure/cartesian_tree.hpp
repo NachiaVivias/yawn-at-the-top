@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/cartesian_tree.hpp
 template <class T>
 vector<int> cartesian_tree(const vector<T>& a) {
   int n = a.size(), t = 0;
@@ -11,3 +12,4 @@ vector<int> cartesian_tree(const vector<T>& a) {
   }
   return pa;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/cartesian_tree.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/palindromic_tree.hpp
 struct PalNode {
   ll len = 0, diff = 0;
   PalNode *li = 0;  // suffix link
@@ -33,3 +34,4 @@ struct PalTree {
     return v = v->nx[c];
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/palindromic_tree.hpp

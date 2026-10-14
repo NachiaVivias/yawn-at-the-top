@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/range_query/range_chmin_chmax_add_sum.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/range_chmin_chmax_add_range_sum"
 
 #define _GLIBCXX_DEBUG
@@ -183,3 +184,4 @@ int main(){
   }
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/range_query/range_chmin_chmax_add_sum.test.cpp

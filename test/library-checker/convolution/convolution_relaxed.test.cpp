@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/convolution/convolution_relaxed.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/convolution_mod"
 
 // very slow
@@ -49,3 +50,4 @@ int main() {
   cout<<endl;
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/convolution/convolution_relaxed.test.cpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_4_c.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/4/CGL_4_C"
 #define ERROR 0.00001
 
@@ -21,3 +22,4 @@ int main() {
         cout << area2(convex_cut(pol, {p0, p1})) / 2. << endl;
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_4_c.test.cpp

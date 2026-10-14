@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/convex_hull.hpp
 /// Original: Gifted Infants(Polygon) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 // p must be sorted and uniqued!
 V<P> convex_down(V<P> ps, bool on_edge = 0) {
@@ -21,3 +22,4 @@ V<P> convex(V<P> ps, bool on_edge = 0) {
   dw.insert(dw.begin(), up.begin() + 1, up.end() - 1);
   return dw;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/geometry/convex_hull.hpp

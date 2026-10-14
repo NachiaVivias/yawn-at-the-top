@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/z_algorithm.hpp
 // s[0..r[i]] == s[i..i+r[i]]
 template <class S>
 vector<int> z_algorithm(const S& s) {
@@ -12,3 +13,4 @@ vector<int> z_algorithm(const S& s) {
   r[0] = n;
   return r;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/z_algorithm.hpp

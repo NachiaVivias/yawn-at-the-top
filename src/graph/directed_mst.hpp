@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/directed_mst.hpp
 /// Original: ei1333 https://ei1333.github.io/library/graph/mst/directed-mst.hpp
 template <typename T, bool isMin = true>
 struct LeftistHeap {
@@ -80,3 +81,4 @@ V<int> directed_mst(int n, int root, V<Edge> E) {
   } while(x--);
   return ans;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/directed_mst.hpp

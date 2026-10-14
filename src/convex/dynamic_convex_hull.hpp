@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/dynamic_convex_hull.hpp
 /// Original: kactl https://github.com/kth-competitive-programming/kactl
 struct Line { // f(x) = k * x + m
     mutable ll k, m, p;
@@ -28,3 +29,4 @@ struct LineContainer : multiset<Line, less<>> {
         return l.k * x + l.m;
     }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/convex/dynamic_convex_hull.hpp

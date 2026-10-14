@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/grl_6_a.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/6/GRL_6_A"
 
 #define _GLIBCXX_DEBUG
@@ -29,3 +30,4 @@ int main() {
   auto mf = get_mf(g, 0, v - 1, 0);
   cout << mf.flow << endl;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/grl_6_a.test.cpp

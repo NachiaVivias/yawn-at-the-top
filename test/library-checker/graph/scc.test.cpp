@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/graph/scc.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/scc"
 
 #define _GLIBCXX_DEBUG
@@ -33,3 +34,4 @@ int main() {
         cout << '\n';
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/graph/scc.test.cpp

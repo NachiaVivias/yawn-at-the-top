@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/tonelli_shanks.hpp
 // x^2=N(mod p : prime) となるxを返す(存在しないなら-1)
 // pow_mod(a,b,p)はa^b(mod p)
 ll Tonelli_Shanks(ll N, ll p) {
@@ -18,3 +19,4 @@ ll Tonelli_Shanks(ll N, ll p) {
   }
   return r;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/tonelli_shanks.hpp

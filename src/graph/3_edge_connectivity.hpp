@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/3_edge_connectivity.hpp
 struct ThreeEdgeConnectivity{
   int num2, num3;
   V<int> col2, col3;
@@ -73,3 +74,4 @@ struct ThreeEdgeConnectivity{
     num3 = assignColors(col3, O);
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/3_edge_connectivity.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/multieval_invincluded.hpp
 template <class D>
 struct MultiEval {
   int n;
@@ -30,3 +31,4 @@ struct MultiEval {
     return G[1];
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/multieval_invincluded.hpp

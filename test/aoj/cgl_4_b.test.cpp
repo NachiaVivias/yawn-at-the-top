@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_4_b.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/4/CGL_4_B"
 #define ERROR 0.000001
 
@@ -18,3 +19,4 @@ int main() {
     cout << fixed << setprecision(20);
     cout << diameter(pol) << endl;;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_4_b.test.cpp

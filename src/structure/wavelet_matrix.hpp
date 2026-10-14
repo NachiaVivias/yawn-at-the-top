@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/wavelet_matrix.hpp
 struct BitVector {
   ll n, b, m;
   V<unsigned> bit, sum;
@@ -89,3 +90,4 @@ struct WaveletMatrix {
     return cnt == r - l ? T(-1) : kth_smallest(l, r, cnt);
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/wavelet_matrix.hpp

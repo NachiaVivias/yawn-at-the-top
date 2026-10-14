@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_3_c.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/3/CGL_3_C"
 
 #include <bits/stdc++.h>
@@ -20,3 +21,4 @@ int main() {
         cout << contains(pol, p) << endl;
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_3_c.test.cpp

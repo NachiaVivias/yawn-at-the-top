@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_1_c.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/1/CGL_1_C"
 
 #include <bits/stdc++.h>
@@ -19,3 +20,4 @@ int main() {
         if(c==2) cout << "ONLINE_BACK\n";
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_1_c.test.cpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/unionfind.hpp
 struct UnionFind {
   V<int> p;
   int gn;
@@ -20,3 +21,4 @@ struct UnionFind {
     return group(a) == group(b);
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/unionfind.hpp

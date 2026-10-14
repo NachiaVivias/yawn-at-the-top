@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/bostan_mori_msb_first.hpp
 // res[i] = 1/d の N-i 次の係数
 template <class D>
 V<D> bostan_mori_sub(V<D> d, ll N) {
@@ -43,3 +44,4 @@ V<D> bostan_mori(V<D> n, V<D> d, ll N, int m) {
   f.resize(k + m - 1);
   return tr_multiply(n, f);
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/bostan_mori_msb_first.hpp

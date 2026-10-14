@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/kinetic_tournament_by_beats.hpp
 struct Line {
   ll a, b;
   ll cross(Line r) const {
@@ -32,3 +33,4 @@ F composition(F f, F x){
   x.dt += f.dt;
   return x;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/kinetic_tournament_by_beats.hpp

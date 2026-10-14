@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/dominator_tree_kaist.hpp
 /// Original: DeobureoMinkyuParty https://github.com/koosaga/DeobureoMinkyuParty
 struct DominatorTree{
     int n, cs;
@@ -42,3 +43,4 @@ struct DominatorTree{
         return idom;
     }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/dominator_tree_kaist.hpp

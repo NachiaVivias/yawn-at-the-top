@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/fps/log.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/log_of_formal_power_series"
 
 #define _GLIBCXX_DEBUG
@@ -22,3 +23,4 @@ int main(){
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/fps/log.test.cpp

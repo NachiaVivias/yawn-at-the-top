@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/nft.hpp
 /// Original: tatyam (ICPC_notebook) (https://github.com/tatyam-prime/ICPC_notebook/tree/main)
 /// nft 以外は Nachia
 // 167772161     3       5 * 2^25 + 1
@@ -70,3 +71,4 @@ V<Mint> tr_multiply(V<Mint> a, V<Mint> b) {
   b.resize(m - n + 1);
   return b;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/fps/nft.hpp

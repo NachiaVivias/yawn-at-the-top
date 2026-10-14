@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/tree_dp.hpp
 // F : S rake(S l, S r);
 // G : S extend(S a, int old_root, int new_root)
 template<class S, class F, class G>
@@ -40,3 +41,4 @@ struct TreeDP {
     return f(low[v], g(high[v], par[v], v));
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/tree_dp.hpp

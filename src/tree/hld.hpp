@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/hld.hpp
 struct HLD {
   int N;
   int g;
@@ -77,3 +78,4 @@ struct HLD {
     return {vs, es};
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/hld.hpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/closest_pair.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/closest_pair"
 
 // maybe slows down std::sort
@@ -23,3 +24,4 @@ int main() {
         cout << i << ' ' << j << '\n';
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/closest_pair.test.cpp

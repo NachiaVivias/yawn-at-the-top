@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_2_b.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/2/CGL_2_B"
 
 #include <bits/stdc++.h>
@@ -14,3 +15,4 @@ int main() {
         cout << insSS(L(p0, p1), L(p2, p3)) << endl;
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_2_b.test.cpp

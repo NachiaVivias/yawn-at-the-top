@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/fps/bostan_mori_tr.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/consecutive_terms_of_linear_recurrent_sequence"
 
 #define _GLIBCXX_DEBUG
@@ -26,3 +27,4 @@ int main(){
   for(long long i=0; i<M; i++) cout << ans[i].v << "\n "[i+1<M];
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/fps/bostan_mori_tr.test.cpp

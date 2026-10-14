@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/pbds_rope.hpp
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
@@ -31,3 +32,4 @@ v0.mutable_begin(), v0.mutable_end();
 // 変更可能な両端イテレータ
 v0[2];  // 2番目の要素
 // resize, reserveはvectorと同じ
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/structure/pbds_rope.hpp

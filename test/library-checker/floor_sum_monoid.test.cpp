@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/floor_sum_monoid.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/sum_of_floor_of_linear"
 
 #define _GLIBCXX_DEBUG
@@ -32,3 +33,4 @@ int main() {
 
   return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/floor_sum_monoid.test.cpp

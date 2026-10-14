@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/yukicoder/186.test.cpp
 #define PROBLEM "https://yukicoder.me/problems/no/186"
 
 /*
@@ -28,3 +29,4 @@ int main() {
     else if(ans == 0) cout << l << endl;
     else cout << ans << endl;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/yukicoder/186.test.cpp

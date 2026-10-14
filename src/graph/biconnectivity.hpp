@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/biconnectivity.hpp
 struct Biconnectivity {
   V<pair<int,int>> bct; // ( 2-連結成分の番号, 頂点 )
   V<int> tecc; // tecc[頂点] == 2辺連結成分の番号
@@ -28,3 +29,4 @@ struct Biconnectivity {
     num_tecc = f;
   }
 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/biconnectivity.hpp

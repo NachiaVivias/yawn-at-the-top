@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/manacher.hpp
 // res[i] = ( l + r == i なる回文 s[l..r) の長さの最大値 )
 // dummy は s 内で使用されていない値
 template <class S>
@@ -15,3 +16,4 @@ V<int> manacher(const S& s, int dummy) {
   REP(i, m) r[i] -= 1;
   return r;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/manacher.hpp

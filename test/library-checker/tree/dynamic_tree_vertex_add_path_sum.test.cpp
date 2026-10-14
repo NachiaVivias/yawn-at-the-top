@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/dynamic_tree_vertex_add_path_sum.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/dynamic_tree_vertex_add_path_sum"
 
 // #define _GLIBCXX_DEBUG
@@ -51,3 +52,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/dynamic_tree_vertex_add_path_sum.test.cpp

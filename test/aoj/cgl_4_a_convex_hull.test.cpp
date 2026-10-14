@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_4_a_convex_hull.test.cpp
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/4/CGL_4_A"
 
 #include <bits/stdc++.h>
@@ -21,3 +22,4 @@ int main() {
     cout << hull.size() << endl;
     for(const auto& p : hull) cout << p.x << ' ' << p.y << endl;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/aoj/cgl_4_a_convex_hull.test.cpp

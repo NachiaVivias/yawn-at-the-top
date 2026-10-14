@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/floor_sum_monoid.hpp
 // 1 <= A, 0 <= B
 template<class Int, class S, S op(const S&, const S&)>
 S FloorSumMonoid(Int N, Int M, Int A, Int B, S X, S Y, S e){
@@ -32,3 +33,4 @@ S FloorSumMonoid(Int N, Int M, Int A, Int B, S X, S Y, S e){
 //   return { l.x + r.x, l.y + r.y, l.sum + r.sum + l.y * r.x };
 // }
 // S e = { 0,0,0 };
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/number-theory/floor_sum_monoid.hpp

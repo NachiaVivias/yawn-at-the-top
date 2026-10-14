@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/predecessor_problem.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/predecessor_problem"
 
 #define _GLIBCXX_DEBUG
@@ -30,3 +31,4 @@ int main() {
         }
     }
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/predecessor_problem.test.cpp

@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/max_flow.hpp
 /// Original: Gifted Infants (MaxFlow) https://yosupo.hatenablog.com/entry/2019/07/02/122433
 /*
 struct E {
@@ -71,3 +72,4 @@ template <class C, class E>
 MaxFlow<C> get_mf(V<V<E>>& g, int s, int t, C eps) {
   return MFExec<C, E>(g, s, t, eps).info;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/graph/max_flow.hpp

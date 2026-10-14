@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/run_enum.hpp
 // itereator バージョンの z_algorithm が必要
 struct Run { int p, l, r; }; // period, l, r
 V<Run> EnumerateRuns(string S) {
@@ -26,3 +27,4 @@ V<Run> EnumerateRuns(string S) {
   f(f, 0, n);
   return res;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/string/run_enum.hpp
