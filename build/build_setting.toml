@@ -136,7 +136,8 @@ mode = "auto"
 exclude = [
     "lca.hpp",
     "hl_decomposition.hpp",
-    "compressed-subtree.hpp"
+    "compressed-subtree.hpp",
+    "link_cut_tree.hpp"
 ]
 
 [[sections]]
