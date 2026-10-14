@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/dynamic_tree_subtree_add_subtree_sum.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/dynamic_tree_subtree_add_subtree_sum"
 
 
@@ -60,3 +61,4 @@ int main(){
     testcase();
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/dynamic_tree_subtree_add_subtree_sum.test.cpp
