@@ -5,7 +5,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -56,6 +56,34 @@ jobs:
           name: Bundled-${{ runner.os }}
           path: .competitive-verifier/bundled
           retention-days: 1
+
+
+  add-url-comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Add URL comments
+        run: |
+          python scripts/add_url_comment.py "${{ github.repository }}" src
+          python scripts/add_url_comment.py "${{ github.repository }}" test
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A src
+          git add -A test
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Add URL comments to source files"
+          git push
 
   verify:
     runs-on: ubuntu-latest
