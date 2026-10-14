@@ -1,4 +1,3 @@
-# BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/common/random.sh
 while true; do
   python3 gen.py
   c="$(python3 correct.py < input.txt)"
@@ -15,4 +14,3 @@ while true; do
     exit
   fi
 done
-# END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/common/random.sh
