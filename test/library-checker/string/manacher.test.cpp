@@ -15,7 +15,7 @@ int main() {
     cin.tie(0)->sync_with_stdio(0);
     
     string s; cin >> s;
-    auto x = manacher(s, '$');
+    auto x = manacher(s);
     int n = x.size();
     for(int i=1; i<n-1; i++){
         if(i != 1) cout << " ";
