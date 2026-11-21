@@ -1,3 +1,4 @@
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/link_cut_tree_subtree_lazy/point_set_tree_path_composite_sum.test.cpp
 #define PROBLEM "https://judge.yosupo.jp/problem/point_set_tree_path_composite_sum"
 
 
@@ -130,3 +131,4 @@ int main() {
 
     return 0;
 }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/test/library-checker/tree/link_cut_tree_subtree_lazy/point_set_tree_path_composite_sum.test.cpp

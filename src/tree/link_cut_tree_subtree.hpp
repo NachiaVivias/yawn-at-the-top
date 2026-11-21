@@ -1,4 +1,4 @@
-/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/link_cut_tree_subtree_lazy.hpp
+/// BEGIN https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/link_cut_tree_subtree.hpp
 template<class S, class F, S e(), F id()>
 struct LCNode {
     LCNode *c[2] = {0, 0}, *p = 0;
@@ -85,3 +85,4 @@ struct S{
 };
 S op(S l, S r){ return {}; }
 S e(){ return {}; }
+/// END https://github.com/NachiaVivias/yawn-at-the-top/blob/main/src/tree/link_cut_tree_subtree.hpp
