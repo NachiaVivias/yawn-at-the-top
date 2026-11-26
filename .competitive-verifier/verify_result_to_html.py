@@ -183,7 +183,7 @@ def generate_html(json_filepath, output_dir):
 
 if __name__ == "__main__":
     # ファイル名をご指定の「verify_result.json」に変更しています
-    INPUT_JSON = ".competitive-verifier/verify_result.json" 
+    INPUT_JSON = ".competitive-verifier/verify_result_local.json" 
     OUTPUT_DIR = ".competitive-verifier/html_output"
     
     if os.path.exists(INPUT_JSON):

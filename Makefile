@@ -5,8 +5,8 @@ build: notebook.pdf
 verify: .competitive-verifier/verify_result.json $(wildcard src/*/* test/* test/*/*)
 	mkdir -p .competitive-verifier/verify_result
 	competitive-verifier oj-resolve --config ".competitive-verifier/config.toml" >.competitive-verifier/resolve.json
-	seq 0 2 | xargs -L 1 -P 3 -I {} bash -c 'competitive-verifier verify --split 3 --split-index {} --verify-json .competitive-verifier/resolve.json >.competitive-verifier/verify_result/{}.json 2>.competitive-verifier/verify_result/err_{}.txt'
-	competitive-verifier merge-result .competitive-verifier/verify_result/*.json >.competitive-verifier/verify_result.json
+	seq 0 2 | xargs -L 1 -P 3 -I {} bash -c 'competitive-verifier verify --split 3 --split-index {} --verify-json .competitive-verifier/resolve.json --prev-result ".competitive-verifier/verify_result_local.json" >.competitive-verifier/verify_result/{}.json 2>.competitive-verifier/verify_result/err_{}.txt'
+	competitive-verifier merge-result .competitive-verifier/verify_result/*.json >.competitive-verifier/verify_result_local.json
 	python3 .competitive-verifier/verify_result_to_html.py
 
 URL = "http://127.0.0.1:4000"
