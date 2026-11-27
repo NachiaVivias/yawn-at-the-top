@@ -34,6 +34,7 @@ struct LeftistHeap {
     return a;
   }
   np pop(np t) {
+    prop(t);
     return meld(t->l, t->r);
   }
 };
